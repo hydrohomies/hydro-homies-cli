@@ -2,9 +2,10 @@
  * Service for implementing fireauth and store for tracking water usage
  */
 import * as firebase from 'firebase'
+import { apiKey } from '../../environments/config'
 // Set the configuration for your app
 // TODO: Replace with your project's config object
-let config = {
+const config = {
   apiKey: 'AIzaSyAm8-cIzAKdIUio00gbXNHrA_sYf3R1Oss',
   authDomain: 'hydro-homies-cli.firebaseapp.com',
   databaseURL: 'https://hydro-homies-cli.firebaseio.com',
