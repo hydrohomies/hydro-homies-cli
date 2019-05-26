@@ -3,9 +3,8 @@
  */
 import * as firebase from 'firebase'
 
-import {apiKey, authDomain, databaseURL, projectId, storageBucket, messagingSenderId, appId} from '../../config'
+const {apiKey, appId, authDomain, databaseURL, messagingSenderId, projectId, storageBucket} = require('../../config')
 // Set the configuration for your app
-// TODO: Replace with your project's config object
 const config = {
   apiKey,
   authDomain,
@@ -40,16 +39,28 @@ export class Firebase {
    * Creates new user using email and password
    * @param email User Email
    * @param password User Password
+   * @param username User username
    * @returns Error Code
    */
-  static createUserEmailPassword(email: string, password: string) {
+  static createUserEmailPassword(email: string, password: string, username: string): any {
     auth.createUserWithEmailAndPassword(email, password).catch(error => {
-      const errorCode = error.code
       const errorMessage = error.message
-      if (errorCode || errorMessage) {
-        return {errorCode, errorMessage}
+      if (errorMessage) {
+        return errorMessage
+      } else {
+        // @ts-ignore
+        auth.currentUser.updateProfile({
+          displayName: username
+        }).then(() => {
+          return true
+        }).catch(error => {
+          return error
+        })
+        return 'User Created'
       }
     })
+    // @ts-ignore
+    // .updateProfile({
   }
 
   /**
