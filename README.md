@@ -28,29 +28,9 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`hydro hello [NEWFACT]`](#hydro-hello-newfact)
 * [`hydro help [COMMAND]`](#hydro-help-command)
+* [`hydro quickfact [NEWFACT]`](#hydro-quickfact-newfact)
 * [`hydro tracker [FILE]`](#hydro-tracker-file)
-
-## `hydro hello [NEWFACT]`
-
-Gives you a random quick fact about water and allows you to submit new facts
-
-```
-USAGE
-  $ hydro hello [NEWFACT]
-
-OPTIONS
-  -h, --help             show CLI help
-  -s, --newFact=newFact  Submit Fact
-
-EXAMPLE
-  $ hydro quickfact
-  Water covers 71% of the earth!
-  $ hydro quickfact -s Your New Waterfact
-```
-
-_See code: [src/commands/quickfact.ts](https://github.com/caelinsutch/hydro-homies-cli/blob/v0.0.0/src/commands/hello.ts)_
 
 ## `hydro help [COMMAND]`
 
@@ -68,6 +48,26 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
+
+## `hydro quickfact [NEWFACT]`
+
+Gives you a random quick fact about water and allows you to submit new facts
+
+```
+USAGE
+  $ hydro quickfact [NEWFACT]
+
+OPTIONS
+  -h, --help             show CLI help
+  -s, --newFact=newFact  Submit Fact
+
+EXAMPLE
+  $ hydro quickfact
+  Water covers 71% of the earth!
+  $ hydro quickfact -s Your New Waterfact
+```
+
+_See code: [src/commands/quickfact.ts](https://github.com/caelinsutch/hydro-homies-cli/blob/v0.0.0/src/commands/quickfact.ts)_
 
 ## `hydro tracker [FILE]`
 
