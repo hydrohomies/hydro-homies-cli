@@ -1,20 +1,70 @@
 /**
- * Service for implementing fireauth and store for tracking water usage
+ * Service for implementing fireauth and firestore for tracking water usage and facts
  */
 import * as firebase from 'firebase'
-import { apiKey } from '../../environments/config'
+
+import {apiKey, authDomain, databaseURL, projectId, storageBucket, messagingSenderId, appId} from '../../config'
 // Set the configuration for your app
 // TODO: Replace with your project's config object
 const config = {
-  apiKey: 'AIzaSyAm8-cIzAKdIUio00gbXNHrA_sYf3R1Oss',
-  authDomain: 'hydro-homies-cli.firebaseapp.com',
-  databaseURL: 'https://hydro-homies-cli.firebaseio.com',
-  projectId: 'hydro-homies-cli',
-  storageBucket: 'hydro-homies-cli.appspot.com',
-  messagingSenderId: '538032111434',
-  appId: '1:538032111434:web:f051ea36b2059dc1'
+  apiKey,
+  authDomain,
+  databaseURL,
+  projectId,
+  storageBucket,
+  messagingSenderId,
+  appId
 }
 firebase.initializeApp(config)
 
 // Get a reference to the database service
 let database = firebase.database()
+let auth = firebase.auth()
+
+export class Firebase {
+  /**
+   * If user is logged in, returns User Object
+   * @returns User if logged in || null
+   */
+  get user() {
+    // @ts-ignore
+    if (auth.currentUser()) {
+      // @ts-ignore
+      return auth.currentUser()
+    } else {
+      return null
+    }
+  }
+
+  /**
+   * Creates new user using email and password
+   * @param email User Email
+   * @param password User Password
+   * @returns Error Code
+   */
+  static createUserEmailPassword(email: string, password: string) {
+    auth.createUserWithEmailAndPassword(email, password).catch(error => {
+      const errorCode = error.code
+      const errorMessage = error.message
+      if (errorCode || errorMessage) {
+        return {errorCode, errorMessage}
+      }
+    })
+  }
+
+  /**
+   * Signs in user with email and password
+   * @param email: User Email
+   * @param password: User Password
+   * @returns Error Code
+   */
+  static signinUserEmailPassword(email: string, password: string) {
+    auth.signInWithEmailAndPassword(email, password).catch(error => {
+      const errorCode = error.code
+      const errorMessage = error.message
+      if (errorCode || errorMessage) {
+        return {errorCode, errorMessage}
+      }
+    })
+  }
+}
