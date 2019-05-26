@@ -1,0 +1,894 @@
+{
+  "program": {
+    "fileInfos": {
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88",
+        "signature": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376",
+        "signature": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3",
+        "signature": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d",
+        "signature": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4",
+        "signature": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe",
+        "signature": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594",
+        "signature": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/tslib/tslib.d.ts": {
+        "version": "8a0a25ded65c0cb7b03c0109bc6ca580eeb8435bb073c5fb89cd043c9a1ee42e",
+        "signature": "8a0a25ded65c0cb7b03c0109bc6ca580eeb8435bb073c5fb89cd043c9a1ee42e"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/args.d.ts": {
+        "version": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2",
+        "signature": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/alphabet.d.ts": {
+        "version": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca",
+        "signature": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts": {
+        "version": "4acfa80a7a1e7701c679d03b5e539d05c452c2f9c4ff133f7334ccf359214681",
+        "signature": "4acfa80a7a1e7701c679d03b5e539d05c452c2f9c4ff133f7334ccf359214681"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/metadata.d.ts": {
+        "version": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5",
+        "signature": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/parse.d.ts": {
+        "version": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635",
+        "signature": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/help.d.ts": {
+        "version": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba",
+        "signature": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts": {
+        "version": "0096b80854aa269e2d6cb47d7d264cf376ee27f902f71406fb09faa0288432bb",
+        "signature": "0096b80854aa269e2d6cb47d7d264cf376ee27f902f71406fb09faa0288432bb"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts": {
+        "version": "e959961027053278d3c8bde65a01f7726697229ea3cb798b0d15ffdec888ec02",
+        "signature": "e959961027053278d3c8bde65a01f7726697229ea3cb798b0d15ffdec888ec02"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts": {
+        "version": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60",
+        "signature": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts": {
+        "version": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd",
+        "signature": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts": {
+        "version": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1",
+        "signature": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts": {
+        "version": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363",
+        "signature": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts": {
+        "version": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05",
+        "signature": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/config.d.ts": {
+        "version": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d",
+        "signature": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts": {
+        "version": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785",
+        "signature": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts": {
+        "version": "013c7f4547d58905da988f8920ab744c454b12c5a1e1fa9108f4d7d67de92998",
+        "signature": "013c7f4547d58905da988f8920ab744c454b12c5a1e1fa9108f4d7d67de92998"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/command.d.ts": {
+        "version": "c19143f1dc63c07fb2dcd98e96b2e2e706fcf85bec8dd27effdf740e86ee3a25",
+        "signature": "c19143f1dc63c07fb2dcd98e96b2e2e706fcf85bec8dd27effdf740e86ee3a25"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/main.d.ts": {
+        "version": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208",
+        "signature": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts": {
+        "version": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5",
+        "signature": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/src/index.ts": {
+        "version": "37b0cf2713d8c6a145ad7c76ceb1985af28a0261b72b93a575d5a5dd85701261",
+        "signature": "04b2123e996b5c865eec449a1c670c10cee24d12b9f1a97979c0dbbceecc3384"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/quickfact.ts": {
+        "version": "33410900131b3157dd2c5e8e26cd4054d63b8b1dc98501c65ef9833a1bd23932",
+        "signature": "f3915ef80a5fb529de925bde4ac8ff048a35a5c5e5dbd60236c83a976dab420c"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/tracker.ts": {
+        "version": "eac364e27a40265e60c02734ccd7eb2ab5ae6fcf90beb8053c371ebbe27d6786",
+        "signature": "9fd9df2d23b7f8c18ab1874dfc47eef25528227a7a2960d2491737db94533623"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/chai/index.d.ts": {
+        "version": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7",
+        "signature": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts": {
+        "version": "826e226ef4293d2e692c796d7cc81c94f353c57fd6016685b79d68134e5df047",
+        "signature": "826e226ef4293d2e692c796d7cc81c94f353c57fd6016685b79d68134e5df047"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts": {
+        "version": "24f73778cc712f3d2ff4b69227957577487118bd41652b63c5f913ba12f7631a",
+        "signature": "24f73778cc712f3d2ff4b69227957577487118bd41652b63c5f913ba12f7631a"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts": {
+        "version": "b645de8e8084e4cb7fb9ba2d8e3fd893dc3b5a6568fb7a5027aec4f779ef814d",
+        "signature": "b645de8e8084e4cb7fb9ba2d8e3fd893dc3b5a6568fb7a5027aec4f779ef814d"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts": {
+        "version": "6e88e36ca6d6953fde31898701899e61239b22f09906d5970caac88107a4b01a",
+        "signature": "6e88e36ca6d6953fde31898701899e61239b22f09906d5970caac88107a4b01a"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts": {
+        "version": "8d0b0656ffc2f973bdea853fc00a3f99122db54fd7a0e13bf87d6f358fbc3c6e",
+        "signature": "8d0b0656ffc2f973bdea853fc00a3f99122db54fd7a0e13bf87d6f358fbc3c6e"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts": {
+        "version": "5ded11c97be84de8fc472b3639230daa947232f25da04803508539880e3939aa",
+        "signature": "5ded11c97be84de8fc472b3639230daa947232f25da04803508539880e3939aa"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts": {
+        "version": "90e654b460f8ff7a3ff73ec54996290afebf00c8acc0fc634961af1509416db5",
+        "signature": "90e654b460f8ff7a3ff73ec54996290afebf00c8acc0fc634961af1509416db5"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts": {
+        "version": "81fdef0cbc4aeed4e29f7ed43d7b768ebe39e068da55c95bd710f47be289d6ac",
+        "signature": "81fdef0cbc4aeed4e29f7ed43d7b768ebe39e068da55c95bd710f47be289d6ac"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts": {
+        "version": "17d66f8a355e76a5a1ee0a82e3428541abdebe80db47f93586a21a2cd79d89bc",
+        "signature": "17d66f8a355e76a5a1ee0a82e3428541abdebe80db47f93586a21a2cd79d89bc"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts": {
+        "version": "e4db201366aed6e8ec28c4f9e998729477b0825ae7e517441e8000f192b8b033",
+        "signature": "e4db201366aed6e8ec28c4f9e998729477b0825ae7e517441e8000f192b8b033"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts": {
+        "version": "20fb7144dd7a3e5007cc44e96c843879216fd082bf5761bd420715d645eb683e",
+        "signature": "20fb7144dd7a3e5007cc44e96c843879216fd082bf5761bd420715d645eb683e"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts": {
+        "version": "026742bab94860543fde035a6bfd5d5103fab08afbdacf9a207a44b2bb6fccba",
+        "signature": "026742bab94860543fde035a6bfd5d5103fab08afbdacf9a207a44b2bb6fccba"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts": {
+        "version": "beaa6c48cebaa792b431771985e91ae8ae12a4f4701bfba305ca00a74947a576",
+        "signature": "beaa6c48cebaa792b431771985e91ae8ae12a4f4701bfba305ca00a74947a576"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/mocha/index.d.ts": {
+        "version": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102",
+        "signature": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/inspector.d.ts": {
+        "version": "71f5e4a14f2464935a7a244d614e9cf7fc312441d83188abc6b799ce5d051830",
+        "signature": "71f5e4a14f2464935a7a244d614e9cf7fc312441d83188abc6b799ce5d051830"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts": {
+        "version": "a84838921dae2c38cdc5ecdfad24613fd1154c711c62df5581477ce8cf9113a5",
+        "signature": "a84838921dae2c38cdc5ecdfad24613fd1154c711c62df5581477ce8cf9113a5"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/nock/index.d.ts": {
+        "version": "53f4a595b3b84fbd7ce6a47370c9ca7533c12ee4e3e4c754eb904d14d32eaabe",
+        "signature": "53f4a595b3b84fbd7ce6a47370c9ca7533c12ee4e3e4c754eb904d14d32eaabe"
+      },
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/sinon/ts3.1/index.d.ts": {
+        "version": "3fdf5e086de03fc17dd943691526d07bc4d951ec223e4685cac5f21d6533de3e",
+        "signature": "3fdf5e086de03fc17dd943691526d07bc4d951ec223e4685cac5f21d6533de3e"
+      }
+    },
+    "options": {
+      "declaration": true,
+      "importHelpers": true,
+      "module": 1,
+      "outDir": "/Users/caelinsutch/Github/hydro-homies-cli/lib",
+      "rootDir": "/Users/caelinsutch/Github/hydro-homies-cli/src",
+      "strict": true,
+      "target": 4,
+      "composite": true,
+      "configFilePath": "/Users/caelinsutch/Github/hydro-homies-cli/tsconfig.json"
+    },
+    "referencedMap": {
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/alphabet.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/parse.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/metadata.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/help.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/parse.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/help.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/config.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/config.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/command.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/main.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/main.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/src/index.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/quickfact.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/tracker.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/inspector.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/inspector.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/nock/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/parse.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/help.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/command.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/main.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/tracker.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/quickfact.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/src/index.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/main.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/config.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/config.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/parse.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/metadata.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/alphabet.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/help.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/inspector.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts",
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/inspector.d.ts"
+      ],
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/nock/index.d.ts": [
+        "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es5.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2016.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.dom.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/tslib/tslib.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/args.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/alphabet.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/metadata.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/parse.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/help.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/parser/lib/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/command.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/topic.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/config.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/config/lib/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/flags.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/command.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/main.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@oclif/command/lib/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/src/index.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/quickfact.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/src/commands/tracker.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/chai/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/common.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/array.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/collection.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/date.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/function.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/lang.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/math.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/number.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/object.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/seq.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/string.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/common/util.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/lodash/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/mocha/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/inspector.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/node/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/nock/index.d.ts",
+      "/users/caelinsutch/github/hydro-homies-cli/node_modules/@types/sinon/ts3.1/index.d.ts"
+    ]
+  },
+  "version": "3.4.5"
+}
